@@ -8,8 +8,9 @@ export default getRequestConfig(async ({ requestLocale }) => {
   const locale = (await requestLocale) || 'se';
   
   // 2. Check of locale geldig is
-  if (!locales.includes(locale as any)) notFound();
-
+if (!locales.includes(locale as (typeof locales)[number])) {
+  notFound();
+}
   // 3. Laad de GLOBALE file (header, footer, common, nav)
   const global = (await import(`../messages/${locale}.json`)).default;
 
