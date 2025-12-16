@@ -1,0 +1,88 @@
+{
+  "hero": {
+    "badge": "💬 CONTACT US",
+    "title": "We're here",
+    "titleHighlight": "for you",
+    "description": "Whether you want to book a table, place an order or just ask a question – at Spaderkung you always get fast service.",
+    "phone": {
+      "label": "Phone",
+      "value": "063-51 40 11"
+    },
+    "address": {
+      "label": "Address",
+      "value": "Regeringsgatan 5, Östersund"
+    },
+    "email": {
+      "label": "Email",
+      "value": "info@spaderkung.se"
+    },
+    "supportBadge": "24/7",
+    "supportLabel": "Support",
+    "imageAlt": "Restaurant interior"
+  },
+
+  "form": {
+    "title": "Send us a message",
+    "description": "Fill in the form and we'll get back to you as soon as possible.",
+
+    "fields": {
+      "name": {
+        "label": "Name *",
+        "placeholder": "Your name",
+        "error": "Please enter your name",
+        "errorNoNumbers": "Name cannot contain numbers"
+      },
+      "email": {
+        "label": "Email *",
+        "placeholder": "your@email.com",
+        "error": "Please enter a valid email address"
+      },
+      "phone": {
+        "label": "Phone (optional)",
+        "placeholder": "070-123 45 67",
+        "error": "Please enter a valid phone number"
+      },
+      "message": {
+        "label": "Message *",
+        "placeholder": "How can we help you?",
+        "error": "Please enter your message",
+        "errorMinLength": "Message must be at least 10 characters"
+      }
+    },
+
+    "submit": "Send message",
+
+    "feedback": {
+      "success": "Thank you! Your message has been sent.",
+      "error": "Something went wrong. Please try again later.",
+      "loading": "Sending...",
+      "successDescription": "We will get back to you as soon as possible.",
+      "sendAnother": "Send another message"
+    }
+  },
+
+  "hours": {
+    "title": "Opening Hours",
+    "weekdays": {
+      "label": "Monday – Friday",
+      "hours": "11:00 – 21:00"
+    },
+    "weekend": {
+      "label": "Saturday – Sunday",
+      "hours": "12:00 – 21:00"
+    },
+    "delivery": "⭐ Delivery every day until 21:45"
+  },
+
+  "social": {
+    "title": "Follow us",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "twitter": "Twitter"
+  },
+
+  "map": {
+    "title": "Find us",
+    "altText": "Map showing Spaderkung location"
+  }
+}

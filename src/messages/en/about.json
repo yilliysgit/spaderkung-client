@@ -1,0 +1,102 @@
+{
+  "hero": {
+    "badge": "♠ ABOUT US",
+    "title": "Passion for Pizza",
+    "titleHighlight": "Since 2008",
+    "description": "Family-owned pizzeria in the heart of Östersund with 16+ years of tradition and quality.",
+    "rating": "4.0/5.0 (TripAdvisor)",
+    "address": "Regementsgatan 5",
+    "open": "Open every day"
+  },
+
+  "story": {
+    "title": "Our Story",
+    "subtitle": "From a dream to Östersund's favorite pizzeria",
+    "imageAlt": "Delicious pizza from Spaderkung",
+    "p1": "It all started in 2008 when Shaip Dixies opened the doors to Pizzeria Spader Kung on Regementsgatan 5 in Östersund. With a passion for Italian food culture and a vision to serve genuine pizzas.",
+    "p2": "Over the years we have grown and evolved, but our love for craftsmanship and quality has always remained the same. Every pizza is still baked with the same care as day one.",
+    "p3": "Today we are proud to be part of Östersund's food scene and to serve hundreds of satisfied guests every day."
+  },
+
+  "values": {
+    "title": "Our Values",
+    "subtitle": "What makes us unique",
+    "loveFood": {
+      "title": "Love for Food",
+      "desc": "Every pizza is baked with passion and care. We use only fresh ingredients."
+    },
+    "familyOwned": {
+      "title": "Family Owned",
+      "desc": "Since 2008 we have been part of Östersund's food culture with personal service."
+    },
+    "qualityFirst": {
+      "title": "Quality First",
+      "desc": "We never compromise on quality. Swedish ingredients and traditional recipes."
+    },
+    "wideSelection": {
+      "title": "Wide Selection",
+      "desc": "From classic pizzas to pan pizzas, kebab and salads. Also gluten-free options."
+    }
+  },
+
+  "journey": {
+    "title": "Our Journey",
+    "subtitle": "From the beginning to today",
+    "start": {
+      "year": "2008",
+      "title": "The Beginning",
+      "desc": "Pizzeria Spader Kung opened its doors on Regementsgatan in Östersund."
+    },
+    "expand": {
+      "year": "2015",
+      "title": "Expansion",
+      "desc": "We expanded the menu with pan pizzas and introduced gluten-free options."
+    },
+    "today": {
+      "year": "2024",
+      "title": "Today",
+      "desc": "One of Östersund's most appreciated pizzerias with a 4.0 rating."
+    }
+  },
+  "team": {
+    "title": "Meet Our",
+    "highlight": "Dedicated Team",
+    "desc": "Behind every pizza is a dedicated team of experienced pizza chefs and kitchen masters. We love what we do and strive to give every guest a fantastic experience.",
+    "stat1": {
+      "value": "15+",
+      "label": "Employees"
+    },
+    "stat2": {
+      "value": "1000+",
+      "label": "Pizzas per week"
+    },
+    "imageAlt": "Our dedicated team at work"
+},
+
+  "offer": {
+    "title": "What We Offer",
+    "subtitle": "More than just pizza – a complete dining experience",
+    "classicPizza": {
+      "title": "Classic Pizza",
+      "desc": "Traditional pizzas baked in a stone oven with a thin crispy crust.",
+      "price": "From 120 kr"
+    },
+    "panPizza": {
+      "title": "Pan Pizza",
+      "desc": "Thick, soft crust with generous toppings. Perfect for big appetites.",
+      "price": "From 145 kr"
+    },
+    "salads": {
+      "title": "Salads & More",
+      "desc": "Fresh salads, kebab dishes, pasta and à la carte. Also gluten-free options.",
+      "price": "From 95 kr"
+    }
+  },
+
+  "cta": {
+    "title": "Ready to Order?",
+    "subtitle": "Discover why we are one of Östersund's most loved pizzerias",
+    "orderNow": "Order Now",
+    "call": "Call us"
+  }
+}

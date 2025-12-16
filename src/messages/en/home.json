@@ -1,0 +1,148 @@
+{
+  "hero": {
+    "badge": "🔥 Hot Deals",
+    "title": "Welcome to",
+    "titleHighlight": "Spaderkung",
+    "titleEnd": "Pizzeria",
+    "description": "Experience authentic Italian pizza in the heart of Östersund. Fresh ingredients, traditional recipes, and a passion for great food.",
+    "orderOnline": "Order Online",
+    "seeMenu": "See Menu",
+    "rating": "4.0 Stars",
+    "reviews": "200+ reviews",
+    "deliveryTime": "30-45 min",
+    "discount": "20% OFF first order",
+    "imageAlt": "Delicious Spaderkung pizza with fresh toppings"
+  },
+
+  "popularDishes": {
+    "title": "Most Popular Dishes",
+    "description": "Our most loved dishes, freshly prepared with authentic ingredients.",
+    "addToCart": "Add to cart",
+    "viewMenu": "View full menu",
+    "currency": "kr",
+
+    "dishes": {
+      "panAfrikana": {
+        "name": "Pan Afrikana",
+        "desc": "Fresh oven-baked pizza with beef, onion and mozzarella.",
+        "tag": "Pizza",
+        "emoji": "🍕",
+        "price": 145,
+        "image": "/assets/images/panpizza.jpg"
+      },
+      "kebabPizza": {
+        "name": "Kebab Pizza",
+        "desc": "Swedish-style kebab pizza with fresh vegetables.",
+        "tag": "Pizza",
+        "emoji": "🍕",
+        "price": 135,
+        "image": "/assets/images/pizza.jpg"
+      },
+      "carbonara": {
+        "name": "Carbonara",
+        "desc": "Classic creamy Italian carbonara with parmesan.",
+        "tag": "Pasta",
+        "emoji": "🍝",
+        "price": 129,
+        "image": "/assets/images/carbonera.jpg"
+      },
+      "kebabSalad": {
+        "name": "Kebab Salad",
+        "desc": "Fresh salad topped with kebab meat and garlic sauce.",
+        "tag": "Salad",
+        "emoji": "🥗",
+        "price": 120,
+        "image": "/assets/images/tonno-salad.jpg"
+      }
+    }
+  },
+
+  "promo": {
+    "orderFavorite": {
+      "title": "Order Your Favorite Pizza",
+      "desc": "Fast delivery • Always hot",
+      "cta": "Order Now",
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+      "imageAlt": "Delicious pizza ready for delivery"
+    },
+    "discount": {
+      "title": "20% Discount",
+      "desc": "On all pan pizzas",
+      "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Fresh pizza with discount offer"
+    },
+
+
+    
+    "kidsMenu": {
+      "title": "Kids Menu",
+      "desc": "Small portions • Great flavors",
+      "image": "https://images.unsplash.com/photo-1571997478779-2adcbbe9ab2f?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Kid-friendly pizza portions"
+    },
+    "makeOwn": {
+      "title": "Create Your Own Pizza",
+      "desc": "Choose dough • Choose toppings • Done!",
+      "image": "https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Custom pizza with various toppings"
+    },
+    "catering": {
+      "title": "Catering & Events",
+      "desc": "Perfect for companies and parties",
+      "cta": "Read More",
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Catering service with multiple pizzas"
+    },
+    "lunch": {
+      "badge": "LUNCH",
+      "title": "Pizza + Drink",
+      "price": "Only 99 kr",
+      "time": "Monday - Friday 11–14",
+      "image": "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Lunch special pizza and drink"
+    },
+    "student": {
+      "title": "Student Discount",
+      "desc": "15% off all pizzas with a valid student ID",
+      "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Student enjoying pizza"
+    }
+  },
+
+  "features": {
+    "fastDelivery": "Fast Delivery",
+    "fastDeliveryDesc": "Pizza at your door within 30 minutes or your money back.",
+    
+    "quality": "Top Quality",
+    "qualityDesc": "Only fresh ingredients from trusted local suppliers.",
+    
+    "support": "24/7 Support",
+    "supportDesc": "Always available to help you with your order."
+  },
+
+  "event": {
+    "title": "Make Your Event",
+    "titleHighlight": "Delicious",
+    "description": "We offer catering for events, companies and private parties.",
+    "cta": "Contact us",
+    "bookNow": "Book Now",
+    "callUs": "Call Us"
+  },
+
+  "common": {
+    "address": "Regeringsgatan 5",
+    "city": "Östersund",
+    "fullAddress": "Regeringsgatan 5, Östersund",
+    "email": "info@spaderkung.se",
+    "phone": "063-51 40 11"
+  },
+
+  "footer": {
+    "monFri": "Mon–Fri",
+    "satSun": "Sat–Sun",
+    "hours": {
+      "monFri": "11:00–22:00",
+      "satSun": "12:00–23:00"
+    }
+  }
+}

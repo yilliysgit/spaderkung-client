@@ -1,0 +1,518 @@
+{
+  "hero": {
+    "badge": "🍕 VÅR MENY",
+    "title": "Upptäck vårt",
+    "titleHighlight": "läckra utbud",
+    "description": "Handbakade pizzor, fräscha sallader och äkta italiensk pasta"
+  },
+
+  "badges": {
+    "popular": "Populär",
+    "bestseller": "Mest såld",
+    "chefChoice": "Chefens val",
+    "new": "Nyhet",
+    "spicy": "Stark"
+  },
+
+  "filters": {
+    "all": "Alla",
+    "vegetarian": "Vegetarisk",
+    "glutenFree": "Glutenfritt finns",
+    "search": "Sök rätter..."
+  },
+
+  "categories": {
+    "pizza": "Klassisk Pizza 120kr",
+    "panPizza": "Pan Pizza",
+    "panPizzaSpecial": "Pan Pizza Special",
+    "specialPizza": "Special Pizza",
+    "salads": "Sallader 120kr",
+    "pasta": "Pasta 120kr",
+    "alacarte": "À La Carte"
+  },
+
+  "info": {
+    "glutenFree": "Vi har även glutenfria pizzor!",
+    "priceNote": "Alla pizzor kan beställas i: Vanlig pizza 120:-, Pan pizza 110:-, Barnpizza 240:-"
+  },
+
+  "sizing": {
+    "small": "Liten",
+    "large": "Stor"
+  },
+
+"addToCart": "Lägg till i varukorg",
+  "loadMore": "Ladda 12 till",
+  "showAll": "Visa alla",
+  
+  "itemCount": {
+    "single": "artikel",
+    "multiple": "artiklar",
+    "showing": "visar"
+  },
+  
+  "noResults": "Inga resultat för",
+  "noCategoryItems": "Inga artiklar i denna kategori",
+
+  "items": {
+    "margherita": {
+      "name": "Margherita",
+      "ingredients": "Tomatsås, Ost",
+      "price": 120,
+      "category": "pizza",
+      "vegetarian": true,
+      "badge": "popular"
+    },
+    "vesuvio": {
+      "name": "Vesuvio",
+      "ingredients": "Skinka",
+      "price": 120,
+      "category": "pizza"
+    },
+    "africano": {
+      "name": "Africano",
+      "ingredients": "Tonfisk",
+      "price": 120,
+      "category": "pizza"
+    },
+    "campagnola": {
+      "name": "Campagnola",
+      "ingredients": "Champinjoner",
+      "price": 120,
+      "category": "pizza",
+      "vegetarian": true
+    },
+    "bolognese": {
+      "name": "Bolognese",
+      "ingredients": "Köttfärssås",
+      "price": 120,
+      "category": "pizza"
+    },
+    "cacciatore": {
+      "name": "Cacciatore",
+      "ingredients": "Salami",
+      "price": 120,
+      "category": "pizza"
+    },
+    "capricciosa": {
+      "name": "Capricciosa",
+      "ingredients": "Skinka, Champinjoner",
+      "price": 120,
+      "category": "pizza",
+      "badge": "bestseller"
+    },
+    "laBussola": {
+      "name": "La Bussola",
+      "ingredients": "Skinka, Räkor",
+      "price": 120,
+      "category": "pizza"
+    },
+    "marinara": {
+      "name": "Marinara",
+      "ingredients": "Räkor, Musslor",
+      "price": 120,
+      "category": "pizza"
+    },
+    "dalOpera": {
+      "name": "Dal Opera",
+      "ingredients": "Skinka, Tonfisk",
+      "price": 120,
+      "category": "pizza"
+    },
+    "prinsessa": {
+      "name": "Prinsessa",
+      "ingredients": "Skinka, Räkor, Ananas",
+      "price": 120,
+      "category": "pizza"
+    },
+    "riviera": {
+      "name": "Riviera",
+      "ingredients": "Skinka, Tonfisk, Räkor",
+      "price": 120,
+      "category": "pizza"
+    },
+    "mammaMia": {
+      "name": "Mamma Mia",
+      "ingredients": "Champinjoner, Paprika, Lök, Bacon",
+      "price": 120,
+      "category": "pizza"
+    },
+    "naPoliaina": {
+      "name": "Na Poliaina",
+      "ingredients": "Skinka, Lök, Köttfärs",
+      "price": 120,
+      "category": "pizza"
+    },
+    "siciliana": {
+      "name": "Siciliana",
+      "ingredients": "Ansjovis, Gröna oliver, Kapris, Vitlök",
+      "price": 120,
+      "category": "pizza"
+    },
+    "pompeji": {
+      "name": "Pompeji",
+      "ingredients": "Skinka, Champinjoner, Banan, Lök",
+      "price": 120,
+      "category": "pizza"
+    },
+    "afrikana": {
+      "name": "Afrikana",
+      "ingredients": "Skinka, Ananas, Banan, Curry",
+      "price": 120,
+      "category": "pizza"
+    },
+    "bellaCasa": {
+      "name": "Bella Casa",
+      "ingredients": "Räkor, Banan, Ananas",
+      "price": 120,
+      "category": "pizza"
+    },
+    "treKronor": {
+      "name": "Tre Kronor",
+      "ingredients": "Skinka, Räkor, Champinjoner",
+      "price": 120,
+      "category": "pizza"
+    },
+    "orientale": {
+      "name": "Orientale",
+      "ingredients": "Köttfärs, Ananas, Ägg, Räkor, Vitlök",
+      "price": 120,
+      "category": "pizza"
+    },
+    "gudfader": {
+      "name": "Gudfader",
+      "ingredients": "Salami, Bacon, Skinka, Lök",
+      "price": 120,
+      "category": "pizza"
+    },
+    "vegetariana": {
+      "name": "Vegetariana",
+      "ingredients": "Champinjoner, Paprika, Ananas, Lök, Färska tomater, Kronärtskocka, Oliver",
+      "price": 120,
+      "category": "pizza",
+      "vegetarian": true
+    },
+    "sorrento": {
+      "name": "Sorrento",
+      "ingredients": "Skinka, Bacon, Lök, Champinjoner",
+      "price": 120,
+      "category": "pizza"
+    },
+    "quattroStagione": {
+      "name": "Quattro Stagione",
+      "ingredients": "Skinka, Räkor, Champinjoner, Musslor, Oliver, Kronärtskocka",
+      "price": 120,
+      "category": "pizza"
+    },
+    "calzone": {
+      "name": "Calzone",
+      "note": "INBAKAD",
+      "ingredients": "Skinka",
+      "price": 120,
+      "category": "pizza"
+    },
+    "calzoneSpecial": {
+      "name": "Calzone Special",
+      "note": "INBAKAD",
+      "ingredients": "Skinka, Räkor, Champinjoner",
+      "price": 120,
+      "category": "pizza"
+    },
+    "hawaii": {
+      "name": "Hawaii",
+      "ingredients": "Skinka, Ananas",
+      "price": 120,
+      "category": "pizza",
+      "badge": "popular"
+    },
+
+    "panRiviera": {
+      "name": "Pan Riviera",
+      "ingredients": "Tomat, Ost, Skinka, Champinjoner, Tonfisk, Räkor",
+      "sizes": {
+        "small": 135,
+        "large": 270
+      },
+      "category": "panPizza"
+    },
+    "panMammaMia": {
+      "name": "Pan Mamma Mia",
+      "ingredients": "Tomat, Ost, Champinjoner, Paprika, Lök, Bacon",
+      "sizes": {
+        "small": 135,
+        "large": 270
+      },
+      "category": "panPizza"
+    },
+    "panAfrikana": {
+      "name": "Pan Afrikana",
+      "ingredients": "Tomat, Ost, Skinka, Ananas, Banan, Curry",
+      "sizes": {
+        "small": 135,
+        "large": 270
+      },
+      "category": "panPizza",
+      "badge": "popular"
+    },
+    "panGudfader": {
+      "name": "Pan Gudfader",
+      "ingredients": "Tomat, Ost, Salami, Bacon, Skinka, Lök",
+      "sizes": {
+        "small": 135,
+        "large": 270
+      },
+      "category": "panPizza"
+    },
+    "panVegetariana": {
+      "name": "Pan Vegetariana",
+      "ingredients": "Tomat, Ost, Champinjoner, Paprika, Färska tomater, Kronärtskocka, Oliver",
+      "sizes": {
+        "small": 135,
+        "large": 270
+      },
+      "category": "panPizza",
+      "vegetarian": true
+    },
+    "panTreKronor": {
+      "name": "Pan Tre Kronor",
+      "ingredients": "Tomat, Ost, Skinka, Räkor, Champinjoner",
+      "sizes": {
+        "small": 135,
+        "large": 270
+      },
+      "category": "panPizza"
+    },
+
+    "panBatman": {
+      "name": "Pan Batman",
+      "ingredients": "Tomat, Ost, Filé, Sparris, Champinjoner, Lök, Gorgonzola",
+      "sizes": {
+        "small": 155,
+        "large": 350
+      },
+      "category": "panPizzaSpecial",
+      "badge": "chefChoice"
+    },
+    "panHusels": {
+      "name": "Pan Husels",
+      "ingredients": "Tomat, Ost, Oxfilé, Champinjoner, Lök, Vitlök",
+      "sizes": {
+        "small": 160,
+        "large": 330
+      },
+      "category": "panPizzaSpecial"
+    },
+    "panCarbonara": {
+      "name": "Pan Carbonara",
+      "ingredients": "Tomat, Ost, Filé, Champinjoner, Lök, Vitlök",
+      "sizes": {
+        "small": 160,
+        "large": 310
+      },
+      "category": "panPizzaSpecial"
+    },
+    "panKyckling": {
+      "name": "Pan Kyckling",
+      "ingredients": "Tomat, Ost, Kyckling, Ananas, Banan, Curry",
+      "sizes": {
+        "small": 145,
+        "large": 290
+      },
+      "category": "panPizzaSpecial"
+    },
+    "panKungen": {
+      "name": "Pan Kungen",
+      "ingredients": "Tomat, Ost, Champinjoner, Lök, Filé & oxfylling",
+      "sizes": {
+        "small": 155,
+        "large": 330
+      },
+      "category": "panPizzaSpecial"
+    },
+
+    "carbonaraSpecial": {
+      "name": "Carbonara",
+      "note": "INBAKAD",
+      "ingredients": "Filé, Champinjoner, Lök, Vitlök, Bearnaisesås",
+      "price": 145,
+      "category": "specialPizza"
+    },
+    "herkules": {
+      "name": "Herkules",
+      "note": "HALVT INBAKAD",
+      "ingredients": "Filé, Vitlök, Färska tomater, Lök, Bearnaisesås",
+      "price": 145,
+      "category": "specialPizza"
+    },
+    "batmanSpecial": {
+      "name": "Batman",
+      "note": "HALVT INBAKAD",
+      "ingredients": "Filé, Sparris, Champinjoner, Lök, Gorgonzola, Bearnaisesås",
+      "price": 145,
+      "category": "specialPizza"
+    },
+    "filestekSpecial": {
+      "name": "Filéstek Special",
+      "note": "HALVT INBAKAD",
+      "ingredients": "Filé, Banan, Ananas, Lök, Bearnaisesås",
+      "price": 145,
+      "category": "specialPizza"
+    },
+    "oxfilePizza": {
+      "name": "Oxfilé Pizza",
+      "note": "HALVT INBAKAD",
+      "ingredients": "Oxfilé, Bearnaisesås",
+      "price": 165,
+      "category": "specialPizza"
+    },
+    "huselsPizza": {
+      "name": "Husels Pizza",
+      "note": "HALVT INBAKAD",
+      "ingredients": "Oxfilé, Champinjoner, Lök, Vitlök, Bearnaisesås",
+      "price": 160,
+      "category": "specialPizza"
+    },
+    "spaderKung": {
+      "name": "Spader Kung",
+      "note": "HALVT INBAKAD",
+      "ingredients": "Oxfilé, Skinka, Gorgonzola, Bearnaisesås",
+      "price": 160,
+      "category": "specialPizza",
+      "badge": "chefChoice"
+    },
+    "kycklingpizza": {
+      "name": "Kycklingpizza",
+      "ingredients": "Kyckling, Ananas, Banan, Curry, Bearnaisesås",
+      "price": 145,
+      "category": "specialPizza"
+    },
+    "kebabrizza": {
+      "name": "Kebabpizza",
+      "ingredients": "Kebabkött, Pepperoni, Färsk tomat, Lök, Kebabsås",
+      "price": 145,
+      "category": "specialPizza",
+      "badge": "bestseller"
+    },
+    "kungenSpecial": {
+      "name": "Kungen Special",
+      "note": "ÖSTGÖTA INBAKAD",
+      "ingredients": "Champinjoner, Lök, Filé, Oxfilé",
+      "price": 160,
+      "category": "specialPizza"
+    },
+
+    "bondeSallad": {
+      "name": "Bondesallad",
+      "ingredients": "Blandad sallad, Tomat, Gurka, Majs, Sparris, Fetaost, Paprika, Lök, Olivolja",
+      "price": 120,
+      "category": "salads",
+      "vegetarian": true,
+      "note": "Inkl. gräddfil, bröd & dressing"
+    },
+    "tonfiskSallad": {
+      "name": "Tonfisksallad",
+      "ingredients": "Blandad sallad, Tomat, Gurka, Majs, Sparris, Tonfisk, Paprika, Lök, Olivolja, Kokta ägg",
+      "price": 120,
+      "category": "salads",
+      "note": "Inkl. gräddfil, bröd & dressing"
+    },
+    "skinkSallad": {
+      "name": "Skinksallad",
+      "ingredients": "Blandad sallad, Tomat, Gurka, Majs, Sparris, Skinka, Ost, Ananas, Paprika",
+      "price": 120,
+      "category": "salads",
+      "note": "Inkl. gräddfil, bröd & dressing"
+    },
+    "rakSallad": {
+      "name": "Räksallad",
+      "ingredients": "Blandad sallad, Tomat, Gurka, Majs, Sparris, Räkor, Champinjoner, Kokta ägg, Ananas",
+      "price": 120,
+      "category": "salads",
+      "note": "Inkl. gräddfil, bröd & dressing"
+    },
+    "kycklingSallad": {
+      "name": "Kycklingssallad",
+      "ingredients": "Blandad sallad, Tomat, Gurka, Majs, Sparris, Kyckling, Paprika, Ananas",
+      "price": 120,
+      "category": "salads",
+      "badge": "popular"
+    },
+
+    "pastaKottfarssas": {
+      "name": "Pasta & Köttfärssås",
+      "price": 120,
+      "category": "pasta"
+    },
+    "oxfileCarbonara": {
+      "name": "Oxfilé Carbonara",
+      "ingredients": "Bacon, Lök, Grädde",
+      "price": 120,
+      "category": "pasta"
+    },
+    "pastaGorgonzola": {
+      "name": "Pasta Gorgonzola",
+      "ingredients": "Gorgonzola, Champinjoner",
+      "price": 120,
+      "category": "pasta",
+      "vegetarian": true,
+      "badge": "chefChoice"
+    },
+    "huselsPasta": {
+      "name": "Husels Pasta",
+      "ingredients": "Köttfärs, Skinka",
+      "price": 120,
+      "category": "pasta"
+    },
+    "lasagne": {
+      "name": "Lasagne",
+      "price": 120,
+      "category": "pasta"
+    },
+
+    "lovbiff": {
+      "name": "Lövbiff med Pommes",
+      "price": 120,
+      "category": "alacarte"
+    },
+    "paneradKyckling": {
+      "name": "Panerad Kyckling med Pommes",
+      "price": 126,
+      "category": "alacarte"
+    },
+    "paneradSchnitzel": {
+      "name": "Panerad Schnitzel med Pommes",
+      "price": 120,
+      "category": "alacarte"
+    },
+    "kebabtallrik": {
+      "name": "Kebabtallrik",
+      "price": 120,
+      "category": "alacarte"
+    },
+    "kebabrulle": {
+      "name": "Kebabrulle",
+      "price": 120,
+      "category": "alacarte"
+    },
+    "kebabMedBrod": {
+      "name": "Kebab med Bröd",
+      "price": 110,
+      "category": "alacarte"
+    },
+    "hallstekFilestek": {
+      "name": "Grillad Filéstek med Pommes",
+      "price": 200,
+      "category": "alacarte"
+    },
+    "hallstekOxfile": {
+      "name": "Grillad Oxfilé",
+      "price": 230,
+      "category": "alacarte"
+    },
+    "paneradRotisserie": {
+      "name": "Panerad Kycklingfilé med Pommes",
+      "price": 120,
+      "category": "alacarte"
+    }
+  }
+}

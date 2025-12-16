@@ -1,17 +1,36 @@
 @import "tailwindcss";
 
+/* === Basis kleuren === */
 :root {
-  --background: #ffffff;
+  /* Algemene achtergrond / tekstkleur (gebruik je nu al) */
+  --background: #f7f2e8;   /* zacht beige in plaats van fel wit */
   --foreground: #171717;
+
+  /* Spaderkung / Zweedse huisstijl */
+  --brand-blue: #0051ba;   /* Zweeds blauw */
+  --brand-yellow: #ffcd00; /* Zweeds geel */
+  --brand-beige: #f7f2e8;  /* zelfde als background */
+  --brand-brown: #5d3a29;  /* warme pizzabruin */
+  --brand-dark: #111827;   /* donker voor tekst / backgrounds */
 }
 
+/* Tailwind v4: koppel de CSS-variabelen aan je design tokens */
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+
+  /* optioneel: directe Tailwind kleuren voor gemak */
+  --color-brand-blue: var(--brand-blue);
+  --color-brand-yellow: var(--brand-yellow);
+  --color-brand-beige: var(--brand-beige);
+  --color-brand-brown: var(--brand-brown);
+  --color-brand-dark: var(--brand-dark);
+
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
+/* Dark mode blijft zoals je had, alleen de background verandert daar weer naar donker */
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -19,8 +38,48 @@
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+
+
+/* super smooth rotation */
+@keyframes pizza-rotate-slow {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.pizza-container {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: -20px;
+  width: 50vw;            /* de "hero space" rechts */
+  overflow: hidden;       /* zorgt dat pizza nooit uit beeld gaat */
+  z-index: 1;             /* onder header, boven background */
+  pointer-events: none;   /* geen klik obstructies */
+}
+
+.pizza-rotator {
+  position: absolute;
+  width: 120%;            /* extra groot zonder uit beeld te vallen */
+  height: 120%;
+  left: 10%;            /* sleutel: vast rotatiepunt */
+  top: -10%;
+  transform: translateY(-50%);
+  transform-origin: 50% 50%; /* DIT is het vaste rotatiepunt */
+  animation: pizza-rotate-slow 45s linear infinite;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.5s ease-out forwards;
+  opacity: 0;
 }

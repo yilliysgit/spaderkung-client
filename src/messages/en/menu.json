@@ -1,0 +1,518 @@
+{
+  "hero": {
+    "badge": "🍕 OUR MENU",
+    "title": "Discover our",
+    "titleHighlight": "delicious selection",
+    "description": "Hand-crafted pizzas, fresh salads, and authentic Italian pasta"
+  },
+
+  "badges": {
+    "popular": "Popular",
+    "bestseller": "Best Seller",
+    "chefChoice": "Chef's Choice",
+    "new": "New",
+    "spicy": "Spicy"
+  },
+
+  "filters": {
+    "all": "All",
+    "vegetarian": "Vegetarian",
+    "glutenFree": "Gluten-free available",
+    "search": "Search dishes..."
+  },
+
+  "categories": {
+    "pizza": "Classic Pizza 120kr",
+    "panPizza": "Pan Pizza",
+    "panPizzaSpecial": "Pan Pizza Special",
+    "specialPizza": "Special Pizza",
+    "salads": "Salads 120kr",
+    "pasta": "Pasta 120kr",
+    "alacarte": "À La Carte"
+  },
+
+  "info": {
+    "glutenFree": "We also have gluten-free pizza!",
+    "priceNote": "All pizzas can be ordered in: Regular pizza 120:-, Pan pizza 110:-, Kids pizza 240:-"
+  },
+
+  "sizing": {
+    "small": "Small",
+    "large": "Large"
+  },
+
+"addToCart": "Add to cart",
+  "loadMore": "Load 12 more",
+  "showAll": "Show all",
+  
+  "itemCount": {
+    "single": "item",
+    "multiple": "items",
+    "showing": "showing"
+  },
+  
+  "noResults": "No results for",
+  "noCategoryItems": "No items in this category",
+
+  "items": {
+    "margherita": {
+      "name": "Margherita",
+      "ingredients": "Tomato sauce, Cheese",
+      "price": 120,
+      "category": "pizza",
+      "vegetarian": true,
+      "badge": "popular"
+    },
+    "vesuvio": {
+      "name": "Vesuvio",
+      "ingredients": "Ham",
+      "price": 120,
+      "category": "pizza"
+    },
+    "africano": {
+      "name": "Africano",
+      "ingredients": "Tuna",
+      "price": 120,
+      "category": "pizza"
+    },
+    "campagnola": {
+      "name": "Campagnola",
+      "ingredients": "Mushrooms",
+      "price": 120,
+      "category": "pizza",
+      "vegetarian": true
+    },
+    "bolognese": {
+      "name": "Bolognese",
+      "ingredients": "Meat sauce",
+      "price": 120,
+      "category": "pizza"
+    },
+    "cacciatore": {
+      "name": "Cacciatore",
+      "ingredients": "Salami",
+      "price": 120,
+      "category": "pizza"
+    },
+    "capricciosa": {
+      "name": "Capricciosa",
+      "ingredients": "Ham, Mushrooms",
+      "price": 120,
+      "category": "pizza",
+      "badge": "bestseller"
+    },
+    "laBussola": {
+      "name": "La Bussola",
+      "ingredients": "Ham, Shrimp",
+      "price": 120,
+      "category": "pizza"
+    },
+    "marinara": {
+      "name": "Marinara",
+      "ingredients": "Shrimp, Mussels",
+      "price": 120,
+      "category": "pizza"
+    },
+    "dalOpera": {
+      "name": "Dal Opera",
+      "ingredients": "Ham, Tuna",
+      "price": 120,
+      "category": "pizza"
+    },
+    "prinsessa": {
+      "name": "Prinsessa",
+      "ingredients": "Ham, Shrimp, Pineapple",
+      "price": 120,
+      "category": "pizza"
+    },
+    "riviera": {
+      "name": "Riviera",
+      "ingredients": "Ham, Tuna, Shrimp",
+      "price": 120,
+      "category": "pizza"
+    },
+    "mammaMia": {
+      "name": "Mamma Mia",
+      "ingredients": "Mushrooms, Peppers, Onion, Bacon",
+      "price": 120,
+      "category": "pizza"
+    },
+    "naPoliaina": {
+      "name": "Na Poliaina",
+      "ingredients": "Ham, Onion, Ground beef",
+      "price": 120,
+      "category": "pizza"
+    },
+    "siciliana": {
+      "name": "Siciliana",
+      "ingredients": "Anchovies, Green olives, Capers, Garlic",
+      "price": 120,
+      "category": "pizza"
+    },
+    "pompeji": {
+      "name": "Pompeji",
+      "ingredients": "Ham, Mushrooms, Banana, Onion",
+      "price": 120,
+      "category": "pizza"
+    },
+    "afrikana": {
+      "name": "Afrikana",
+      "ingredients": "Ham, Pineapple, Banana, Curry",
+      "price": 120,
+      "category": "pizza"
+    },
+    "bellaCasa": {
+      "name": "Bella Casa",
+      "ingredients": "Shrimp, Banana, Pineapple",
+      "price": 120,
+      "category": "pizza"
+    },
+    "treKronor": {
+      "name": "Tre Kronor",
+      "ingredients": "Ham, Shrimp, Mushrooms",
+      "price": 120,
+      "category": "pizza"
+    },
+    "orientale": {
+      "name": "Orientale",
+      "ingredients": "Ground beef, Pineapple, Egg, Shrimp, Garlic",
+      "price": 120,
+      "category": "pizza"
+    },
+    "gudfader": {
+      "name": "Gudfader",
+      "ingredients": "Salami, Bacon, Ham, Onion",
+      "price": 120,
+      "category": "pizza"
+    },
+    "vegetariana": {
+      "name": "Vegetariana",
+      "ingredients": "Mushrooms, Peppers, Pineapple, Onion, Fresh tomatoes, Artichoke, Olives",
+      "price": 120,
+      "category": "pizza",
+      "vegetarian": true
+    },
+    "sorrento": {
+      "name": "Sorrento",
+      "ingredients": "Ham, Bacon, Onion, Mushrooms",
+      "price": 120,
+      "category": "pizza"
+    },
+    "quattroStagione": {
+      "name": "Quattro Stagione",
+      "ingredients": "Ham, Shrimp, Mushrooms, Mussels, Olives, Artichoke",
+      "price": 120,
+      "category": "pizza"
+    },
+    "calzone": {
+      "name": "Calzone",
+      "note": "FOLDED",
+      "ingredients": "Ham",
+      "price": 120,
+      "category": "pizza"
+    },
+    "calzoneSpecial": {
+      "name": "Calzone Special",
+      "note": "FOLDED",
+      "ingredients": "Ham, Shrimp, Mushrooms",
+      "price": 120,
+      "category": "pizza"
+    },
+    "hawaii": {
+      "name": "Hawaii",
+      "ingredients": "Ham, Pineapple",
+      "price": 120,
+      "category": "pizza",
+      "badge": "popular"
+    },
+
+    "panRiviera": {
+      "name": "Pan Riviera",
+      "ingredients": "Tomato, Cheese, Ham, Mushrooms, Tuna, Shrimp",
+      "sizes": {
+        "small": 135,
+        "large": 270
+      },
+      "category": "panPizza"
+    },
+    "panMammaMia": {
+      "name": "Pan Mamma Mia",
+      "ingredients": "Tomato, Cheese, Mushrooms, Peppers, Onion, Bacon",
+      "sizes": {
+        "small": 135,
+        "large": 270
+      },
+      "category": "panPizza"
+    },
+    "panAfrikana": {
+      "name": "Pan Afrikana",
+      "ingredients": "Tomato, Cheese, Ham, Pineapple, Banana, Curry",
+      "sizes": {
+        "small": 135,
+        "large": 270
+      },
+      "category": "panPizza",
+      "badge": "popular"
+    },
+    "panGudfader": {
+      "name": "Pan Gudfader",
+      "ingredients": "Tomato, Cheese, Salami, Bacon, Ham, Onion",
+      "sizes": {
+        "small": 135,
+        "large": 270
+      },
+      "category": "panPizza"
+    },
+    "panVegetariana": {
+      "name": "Pan Vegetariana",
+      "ingredients": "Tomato, Cheese, Mushrooms, Peppers, Fresh tomatoes, Artichoke, Olives",
+      "sizes": {
+        "small": 135,
+        "large": 270
+      },
+      "category": "panPizza",
+      "vegetarian": true
+    },
+    "panTreKronor": {
+      "name": "Pan Tre Kronor",
+      "ingredients": "Tomato, Cheese, Ham, Shrimp, Mushrooms",
+      "sizes": {
+        "small": 135,
+        "large": 270
+      },
+      "category": "panPizza"
+    },
+
+    "panBatman": {
+      "name": "Pan Batman",
+      "ingredients": "Tomato, Cheese, Fillet, Asparagus, Mushrooms, Onion, Gorgonzola",
+      "sizes": {
+        "small": 155,
+        "large": 350
+      },
+      "category": "panPizzaSpecial",
+      "badge": "chefChoice"
+    },
+    "panHusels": {
+      "name": "Pan Husels",
+      "ingredients": "Tomato, Cheese, Beef fillet, Mushrooms, Onion, Garlic",
+      "sizes": {
+        "small": 160,
+        "large": 330
+      },
+      "category": "panPizzaSpecial"
+    },
+    "panCarbonara": {
+      "name": "Pan Carbonara",
+      "ingredients": "Tomato, Cheese, Fillet, Mushrooms, Onion, Garlic",
+      "sizes": {
+        "small": 160,
+        "large": 310
+      },
+      "category": "panPizzaSpecial"
+    },
+    "panKyckling": {
+      "name": "Pan Chicken",
+      "ingredients": "Tomato, Cheese, Chicken, Pineapple, Banana, Curry",
+      "sizes": {
+        "small": 145,
+        "large": 290
+      },
+      "category": "panPizzaSpecial"
+    },
+    "panKungen": {
+      "name": "Pan King",
+      "ingredients": "Tomato, Cheese, Mushrooms, Onion, Fillet & beef filling",
+      "sizes": {
+        "small": 155,
+        "large": 330
+      },
+      "category": "panPizzaSpecial"
+    },
+
+    "carbonaraSpecial": {
+      "name": "Carbonara",
+      "note": "FOLDED",
+      "ingredients": "Fillet, Mushrooms, Onion, Garlic, Béarnaise sauce",
+      "price": 145,
+      "category": "specialPizza"
+    },
+    "herkules": {
+      "name": "Herkules",
+      "note": "HALF FOLDED",
+      "ingredients": "Fillet, Garlic, Fresh tomatoes, Onion, Béarnaise sauce",
+      "price": 145,
+      "category": "specialPizza"
+    },
+    "batmanSpecial": {
+      "name": "Batman",
+      "note": "HALF FOLDED",
+      "ingredients": "Fillet, Asparagus, Mushrooms, Onion, Gorgonzola, Béarnaise sauce",
+      "price": 145,
+      "category": "specialPizza"
+    },
+    "filestekSpecial": {
+      "name": "Fillet Special",
+      "note": "HALF FOLDED",
+      "ingredients": "Fillet, Banana, Pineapple, Onion, Béarnaise sauce",
+      "price": 145,
+      "category": "specialPizza"
+    },
+    "oxfilePizza": {
+      "name": "Beef Fillet Pizza",
+      "note": "HALF FOLDED",
+      "ingredients": "Beef fillet, Béarnaise sauce",
+      "price": 165,
+      "category": "specialPizza"
+    },
+    "huselsPizza": {
+      "name": "Husels Pizza",
+      "note": "HALF FOLDED",
+      "ingredients": "Beef fillet, Mushrooms, Onion, Garlic, Béarnaise sauce",
+      "price": 160,
+      "category": "specialPizza"
+    },
+    "spaderKung": {
+      "name": "Spader Kung",
+      "note": "HALF FOLDED",
+      "ingredients": "Beef fillet, Ham, Gorgonzola, Béarnaise sauce",
+      "price": 160,
+      "category": "specialPizza",
+      "badge": "chefChoice"
+    },
+    "kycklingpizza": {
+      "name": "Chicken Pizza",
+      "ingredients": "Chicken, Pineapple, Banana, Curry, Béarnaise sauce",
+      "price": 145,
+      "category": "specialPizza"
+    },
+    "kebabrizza": {
+      "name": "Kebab Pizza",
+      "ingredients": "Kebab meat, Pepperoni, Fresh tomato, Onion, Kebab sauce",
+      "price": 145,
+      "category": "specialPizza",
+      "badge": "bestseller"
+    },
+    "kungenSpecial": {
+      "name": "King Special",
+      "note": "ÖSTGÖTA FOLDED",
+      "ingredients": "Mushrooms, Onion, Fillet, Beef fillet",
+      "price": 160,
+      "category": "specialPizza"
+    },
+
+    "bondeSallad": {
+      "name": "Farmer Salad",
+      "ingredients": "Mixed salad, Tomato, Cucumber, Corn, Asparagus, Feta cheese, Peppers, Onion, Olive oil",
+      "price": 120,
+      "category": "salads",
+      "vegetarian": true,
+      "note": "Incl. sour cream, bread & dressing"
+    },
+    "tonfiskSallad": {
+      "name": "Tuna Salad",
+      "ingredients": "Mixed salad, Tomato, Cucumber, Corn, Asparagus, Tuna, Peppers, Onion, Olive oil, Boiled eggs",
+      "price": 120,
+      "category": "salads",
+      "note": "Incl. sour cream, bread & dressing"
+    },
+    "skinkSallad": {
+      "name": "Ham Salad",
+      "ingredients": "Mixed salad, Tomato, Cucumber, Corn, Asparagus, Ham, Cheese, Pineapple, Peppers",
+      "price": 120,
+      "category": "salads",
+      "note": "Incl. sour cream, bread & dressing"
+    },
+    "rakSallad": {
+      "name": "Shrimp Salad",
+      "ingredients": "Mixed salad, Tomato, Cucumber, Corn, Asparagus, Shrimp, Mushrooms, Boiled eggs, Pineapple",
+      "price": 120,
+      "category": "salads",
+      "note": "Incl. sour cream, bread & dressing"
+    },
+    "kycklingSallad": {
+      "name": "Chicken Salad",
+      "ingredients": "Mixed salad, Tomato, Cucumber, Corn, Asparagus, Chicken, Peppers, Pineapple",
+      "price": 120,
+      "category": "salads",
+      "badge": "popular"
+    },
+
+    "pastaKottfarssas": {
+      "name": "Pasta & Meat Sauce",
+      "price": 120,
+      "category": "pasta"
+    },
+    "oxfileCarbonara": {
+      "name": "Beef Fillet Carbonara",
+      "ingredients": "Bacon, Onion, Cream",
+      "price": 120,
+      "category": "pasta"
+    },
+    "pastaGorgonzola": {
+      "name": "Pasta Gorgonzola",
+      "ingredients": "Gorgonzola, Mushrooms",
+      "price": 120,
+      "category": "pasta",
+      "vegetarian": true,
+      "badge": "chefChoice"
+    },
+    "huselsPasta": {
+      "name": "Husels Pasta",
+      "ingredients": "Ground beef, Ham",
+      "price": 120,
+      "category": "pasta"
+    },
+    "lasagne": {
+      "name": "Lasagne",
+      "price": 120,
+      "category": "pasta"
+    },
+
+    "lovbiff": {
+      "name": "Minute Steak with Fries",
+      "price": 120,
+      "category": "alacarte"
+    },
+    "paneradKyckling": {
+      "name": "Breaded Chicken with Fries",
+      "price": 126,
+      "category": "alacarte"
+    },
+    "paneradSchnitzel": {
+      "name": "Breaded Schnitzel with Fries",
+      "price": 120,
+      "category": "alacarte"
+    },
+    "kebabtallrik": {
+      "name": "Kebab Plate",
+      "price": 120,
+      "category": "alacarte"
+    },
+    "kebabrulle": {
+      "name": "Kebab Roll",
+      "price": 120,
+      "category": "alacarte"
+    },
+    "kebabMedBrod": {
+      "name": "Kebab with Bread",
+      "price": 110,
+      "category": "alacarte"
+    },
+    "hallstekFilestek": {
+      "name": "Grilled Fillet Steak with Fries",
+      "price": 200,
+      "category": "alacarte"
+    },
+    "hallstekOxfile": {
+      "name": "Grilled Beef Fillet",
+      "price": 230,
+      "category": "alacarte"
+    },
+    "paneradRotisserie": {
+      "name": "Breaded Chicken Fillet with Fries",
+      "price": 120,
+      "category": "alacarte"
+    }
+  }
+}

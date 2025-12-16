@@ -1,0 +1,47 @@
+{
+  "common": {
+    "phone": "063-51 40 11",
+    "email": "info@spaderkung.se",
+    "address": "Regeringsgatan 5",
+    "city": "Östersund",
+    "fullAddress": "Regeringsgatan 5, Östersund"
+  },
+
+  "nav": {
+    "home": "Hem",
+    "about": "Om Oss",
+    "menu": "Meny",
+    "order": "Beställ",
+    "booking": "Boka Bord",
+    "contact": "Kontakt"
+  },
+
+  "header": {
+    "callNow": "Ring nu",
+    "orderNow": "Beställ nu",
+    "language": "Språk"
+  },
+
+  "footer": {
+    "description": "Östersunds bästa pizzeria sedan 2008. Vi serverar äkta pizzor bakade med kärlek.",
+    "quickLinks": "Snabblänkar",
+    "contact": "Kontakt",
+    "openingHours": "Öppettider",
+
+    "monFri": "Mån–Fre",
+    "satSun": "Lör–Sön",
+
+    "hours": {
+      "monFri": "11:00–22:00",
+      "satSun": "12:00–23:00"
+    },
+
+    "payment": {
+      "title": "Du kan betala med"
+    },
+
+    "followUs": "Följ oss",
+
+    "copyright": "© 2025 Spaderkung Pizzeria. Alla rättigheter förbehållna."
+  }
+}

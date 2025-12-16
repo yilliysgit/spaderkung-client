@@ -1,0 +1,88 @@
+{
+  "hero": {
+    "badge": "💬 KONTAKTA OSS",
+    "title": "Vi finns här",
+    "titleHighlight": "för dig",
+    "description": "Vill du boka bord, beställa mat eller bara ställa en fråga? På Spaderkung får du alltid snabb service.",
+    "phone": {
+      "label": "Telefon",
+      "value": "063-51 40 11"
+    },
+    "address": {
+      "label": "Adress",
+      "value": "Regeringsgatan 5, Östersund"
+    },
+    "email": {
+      "label": "E-post",
+      "value": "info@spaderkung.se"
+    },
+    "supportBadge": "24/7",
+    "supportLabel": "Support",
+    "imageAlt": "Restauranginteriör"
+  },
+
+  "form": {
+    "title": "Skicka ett meddelande",
+    "description": "Fyll i formuläret så återkommer vi till dig så snart som möjligt.",
+
+    "fields": {
+      "name": {
+        "label": "Namn *",
+        "placeholder": "Ditt namn",
+        "error": "Vänligen ange ditt namn",
+        "errorNoNumbers": "Namnet får inte innehålla siffror"
+      },
+      "email": {
+        "label": "E-post *",
+        "placeholder": "din@email.se",
+        "error": "Vänligen ange en giltig e-postadress"
+      },
+      "phone": {
+        "label": "Telefon (valfritt)",
+        "placeholder": "070-123 45 67",
+        "error": "Vänligen ange ett giltigt telefonnummer"
+      },
+      "message": {
+        "label": "Meddelande *",
+        "placeholder": "Hur kan vi hjälpa dig?",
+        "error": "Vänligen ange ditt meddelande",
+        "errorMinLength": "Meddelandet måste vara minst 10 tecken"
+      }
+    },
+
+    "submit": "Skicka meddelande",
+
+    "feedback": {
+      "success": "Tack! Ditt meddelande har skickats.",
+      "error": "Något gick fel. Försök igen senare.",
+      "loading": "Skickar...",
+      "successDescription": "Vi återkommer till dig så snart som möjligt.",
+      "sendAnother": "Skicka ett nytt meddelande"
+    }
+  },
+
+  "hours": {
+    "title": "Öppettider",
+    "weekdays": {
+      "label": "Måndag – Fredag",
+      "hours": "11:00 – 21:00"
+    },
+    "weekend": {
+      "label": "Lördag – Söndag",
+      "hours": "12:00 – 21:00"
+    },
+    "delivery": "⭐ Hemleverans varje dag till 21:45"
+  },
+
+  "social": {
+    "title": "Följ oss",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "twitter": "Twitter"
+  },
+
+  "map": {
+    "title": "Hitta hit",
+    "altText": "Karta som visar var Spaderkung ligger"
+  }
+}
