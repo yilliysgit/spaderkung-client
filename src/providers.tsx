@@ -1,8 +1,14 @@
 'use client';
 
-import {NextIntlClientProvider} from 'next-intl';
+import { NextIntlClientProvider } from 'next-intl';
+import { ReactNode } from 'react';
 
-export default function Providers({children, messages}: any) {
+type ProvidersProps = {
+  children: ReactNode;
+  messages: Record<string, any>;
+};
+
+export default function Providers({ children, messages }: ProvidersProps) {
   return (
     <NextIntlClientProvider messages={messages}>
       {children}
