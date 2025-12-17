@@ -3,7 +3,7 @@
 import React from 'react';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
-import SpaderkungLogo from '../../../../../../public/assets/spaderkung-logo';
+import SpaderkungLogo from '../../../../../public/assets/spaderkung-logo';
 
 export default function Footer() {
   const t = useTranslations('footer');

@@ -1,9 +1,9 @@
 "use client";
 
-import ContactHero from "@/app/components/contact/ContactHero";
-import ContactForm from "@/app/components/contact/ContactForm";
-import ContactHours from "@/app/components/contact/ContactHours";
-import ContactMap from "@/app/components/contact/ContactMap";
+import ContactHero from "@/components/contact/ContactHero";
+import ContactForm from "@/components/contact/ContactForm";
+import ContactHours from "@/components/contact/ContactHours";
+import ContactMap from "@/components/contact/ContactMap";
 
 export default function ContactPage() {
   return (

@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { useTranslations, useLocale } from 'next-intl';
 import { useRouter, usePathname } from '@/i18n/routing';
-import SpaderkungLogo from "../../../../../public/assets/spaderkung-logo";
+import SpaderkungLogo from "../../../../public/assets/spaderkung-logo";
 import PhoneAction from "./actions/PhoneAction";
 import CtaAction from "./actions/CtaAction";
 import { Link } from '@/i18n/routing';
