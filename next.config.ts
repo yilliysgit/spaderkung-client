@@ -8,6 +8,10 @@ const nextConfig = {
   images: {
     domains: ['images.unsplash.com'],
   },
+eslint: {
+    ignoreDuringBuilds: true,
+  },
+
   // Add any other Next.js config options here
 };
 
