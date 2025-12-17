@@ -5,9 +5,8 @@
   "scripts": {
     "dev": "next dev --turbopack",
 "build": "NEXT_DISABLE_ESLINT_PLUGIN=1 next build",
-    "start": "next start",
-    "lint": "eslint"
-  },
+    "start": "next start"
+    },
   "dependencies": {
     "@phosphor-icons/react": "^2.1.10",
     "@remixicon/react": "^4.7.0",
